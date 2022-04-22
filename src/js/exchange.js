@@ -10,5 +10,5 @@ export default class Exchange {
       .catch(function(error) {
         return error;
       });
-  }
-}
+  };
+};
