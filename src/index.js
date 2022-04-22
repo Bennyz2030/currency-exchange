@@ -26,14 +26,13 @@ function getRate(response) {
   }
 }
 
-$(document).ready(function() {
-  $('#exchangeMoney').click(function() {
+$(document).ready(function () {
+  $('#currency').click(function () {
     Exchange.convertMoney()
-      .then(function(response) {
+      .then(function (response) {
         getRate(response);
-      })
-      .catch(function() {
-        ('.showErrors').text('Error');
+      }).catch(function () {
+        $('.showErrors').text(`There was an error fetching information from the API.`);
       });
   });
 });
