@@ -7,15 +7,20 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: cadetblue;
   text-shadow: 2px 2px 2px aqua;
+  box-shadow: 5px 5px 5px aqua;
 }
 
-button:hover {
-  color: aqua;
+.btn {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-shadow: 2px 2px 2px aqua;
 }
 
 .card {
   background-color: cadetblue;
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 5px 5px 5px aqua;
+  text-shadow: 2px 2px 2px aqua;
 }
 
 .showErrors {
