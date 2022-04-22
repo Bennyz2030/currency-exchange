@@ -1,3 +1,14 @@
 body {
   background-color: aquamarine;
 }
+
+.jumbotron {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: cadetblue;
+  text-shadow: 2px 2px 2px aqua;
+}
+
+button:hover {
+  color: aqua;
+}
