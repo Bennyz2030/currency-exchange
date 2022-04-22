@@ -1,4 +1,4 @@
-# Currency-Exchange
+# Currency Exchange
 
 ## By Nicholas Benzinger
 

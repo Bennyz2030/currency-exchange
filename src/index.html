@@ -1,9 +1,38 @@
-<!DOCTYPE html>
+
+   
 <html lang="en-US">
-<head>
-</head>
-<body>
-  <div>Hello world!</div>
-  <img src="./../assets/images/puppy.jpeg" alt="such a pup!">
-</body>
-</html>
+  <head>
+    <title>Currency Exchange</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+      <h1>Currency Exchange</h1>
+      </div>
+      <div>
+        <label for="country">Choose a Country</label>
+        <div>
+        <select id="country" class="custom-select" style="width: 200px;">
+          <option value="USD">United States</option>
+          <option value="EUR">European Union</option>
+          <option value="AUD">Australia</option>
+          <option value="MXN">Mexico</option>
+          <option value="AED">United Arab Emerites</option>
+        </select>
+        <div>
+          <br>
+        <label for="dollarAmount">Amount to Exchange</label>
+        </div>
+        <input id="dollarAmount" type="number" class="custom-select" style="width: 200px">
+      </div>
+        <br>
+        <button class="btn-success" id="exchangeMoney">Me Money Now:</button>
+      </div>
+      <br>
+      <div class="col-md-4">
+        <div class="showMoney"></div>
+        <div class="showErrors"></div>
+      </div>
+    </div>
+  </body>
+  </html>
