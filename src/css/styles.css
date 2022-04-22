@@ -12,3 +12,16 @@ body {
 button:hover {
   color: aqua;
 }
+
+.card {
+  background-color: cadetblue;
+  text-align: center;
+}
+
+.showErrors {
+  text-align: center;
+}
+
+.showMoney {
+  text-align: center;
+}
