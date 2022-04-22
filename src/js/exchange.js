@@ -1,10 +1,14 @@
-export default class Numbers {
-  constructor(number1, number2) {
-    this.number1 = number1;
-    this.number2 = number2;
-  }
-
-  add() {
-    return this.number1 + this.number2;
+export default class Exchange {
+  static convertMoney() {
+    return fetch(`https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/latest/USD`)
+      .then(function(response) {
+        if (!response.ok) {
+          throw Error(response.statusText);
+        }
+        return response.json();
+      })
+      .catch(function(error) {
+        return error;
+      });
   }
 }
